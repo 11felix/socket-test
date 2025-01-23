@@ -1,0 +1,43 @@
+{
+  "name": "socket-test",
+  "version": "0.1.0",
+  "dependencies": {
+    "@msafe/sui-wallet": "^0.0.83",
+    "@mysten/dapp-kit": "0.14.38",
+    "@mysten/sui": "1.15.0",
+    "@mysten/wallet-standard": "0.13.14",
+    "@tanstack/react-query": "^5.64.2",
+    "cra-template-typescript": "1.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "typescript": "4.9.5"
+  },
+  "scripts": {
+    "start": "PORT=9001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
